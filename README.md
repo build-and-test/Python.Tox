@@ -10,8 +10,7 @@ Uses Tox to create and manage isolated Python virtual environments.
 
 # Limitations
 
-- Uses system-installed shared Python
 - Assumes Python is available on your PATH
 - Assumes Python is called `python3` on Mac/Linux
+- Uses system-installed shared Python, which could be any version and could already have some packages installed
 - Installs Tox in the system Python
-- Doesn't pin Tox's dependency versions
