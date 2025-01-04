@@ -1,5 +1,8 @@
 # Python.Tox
 
+
+[![Build and Test](https://github.com/build-and-test/Python.Tox/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/build-and-test/Python.Tox/actions/workflows/build-and-test.yml?query=branch%3Amain)
+
 Uses Tox to create and manage isolated Python virtual environments.
 
 # Advantages
