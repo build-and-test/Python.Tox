@@ -1,5 +1,2 @@
 #! /bin/sh
-set -eu
-
-python3 -m pip --disable-pip-version-check install tox --requirement requirements.txt
-tox
+python3 -m pip --disable-pip-version-check install tox --requirement requirements.txt && tox
