@@ -1,0 +1,28 @@
+[tool.tox]
+# Note that environments are named as a dash-separated list of factors. `py` 
+# is a predefined environment factor, meaning "run with the current Python interpreter"
+env_list = ["py-unittest"]
+
+[tool.tox.env]
+deps = [
+  "-r requirements.dev.txt"
+]
+
+[tool.tox.env.py-unittest]
+commands = [
+  "python -m unittest discover -v"
+]
+
+[tool.tox.env.py-update-requirements]
+deps = [
+  "-r requirements.dev.in",
+  "pip-tools"  # warning: unpinned dependency
+]
+set_env = { 
+  CUSTOM_COMPILE_COMMAND = "tox -e py-update-requirements"
+}
+commands = [
+  # Consider --allow-unsafe and --generate-hashes
+  "pip-compile --upgrade --strip-extras --newline LF --quiet --output-file=requirements.txt requirements.in",
+  "pip-compile --upgrade --strip-extras --newline LF --quiet --output-file=requirements.dev.txt requirements.dev.in"
+]
