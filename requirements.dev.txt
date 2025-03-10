@@ -4,7 +4,7 @@
 #
 #    tox -e py-update-requirements
 #
-cachetools==5.5.0
+cachetools==5.5.2
     # via tox
 certifi==2024.12.14
     # via requests
@@ -36,9 +36,9 @@ pyproject-api==1.8.0
     # via tox
 requests==2.32.3
     # via -r requirements.dev.in
-tox==4.24.1
+tox==4.24.2
     # via -r requirements.dev.in
 urllib3==2.3.0
     # via requests
-virtualenv==20.28.1
+virtualenv==20.29.3
     # via tox
