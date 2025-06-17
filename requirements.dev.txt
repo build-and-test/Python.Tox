@@ -36,7 +36,7 @@ pyproject-api==1.8.0
     # via tox
 requests==2.32.4
     # via -r requirements.dev.in
-tox==4.26.0
+tox==4.27.0
     # via -r requirements.dev.in
 urllib3==2.3.0
     # via requests
