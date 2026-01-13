@@ -40,5 +40,5 @@ tox==4.34.1
     # via -r requirements.dev.in
 urllib3==2.6.3
     # via requests
-virtualenv==20.35.4
+virtualenv==20.36.1
     # via tox
