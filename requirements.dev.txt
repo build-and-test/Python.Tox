@@ -40,7 +40,7 @@ requests==2.32.5
     # via -r requirements.dev.in
 tomli-w==1.2.0
     # via tox
-tox==4.50.1
+tox==4.50.3
     # via -r requirements.dev.in
 urllib3==2.6.3
     # via requests
