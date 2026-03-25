@@ -36,7 +36,7 @@ pyproject-api==1.10.0
     # via tox
 python-discovery==1.1.1
     # via virtualenv
-requests==2.32.5
+requests==2.33.0
     # via -r requirements.dev.in
 tomli-w==1.2.0
     # via tox
