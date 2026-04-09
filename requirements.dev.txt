@@ -34,7 +34,7 @@ pluggy==1.6.0
     # via tox
 pyproject-api==1.10.0
     # via tox
-python-discovery==1.2.1
+python-discovery==1.2.2
     # via
     #   tox
     #   virtualenv
@@ -42,7 +42,7 @@ requests==2.33.1
     # via -r requirements.dev.in
 tomli-w==1.2.0
     # via tox
-tox==4.52.0
+tox==4.52.1
     # via -r requirements.dev.in
 urllib3==2.6.3
     # via requests
