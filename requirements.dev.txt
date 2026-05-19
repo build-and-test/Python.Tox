@@ -19,7 +19,7 @@ filelock==3.25.0
     #   python-discovery
     #   tox
     #   virtualenv
-idna==3.10
+idna==3.15
     # via requests
 packaging==26.0
     # via
